@@ -1,13 +1,14 @@
 package pojoClasses;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.google.gson.annotations.SerializedName;
 
 public class PlayerDetail {
 
     private String name;
     private String country;
     private String role;
-    @JsonProperty("price-in-crores")
+
+    @SerializedName("price-in-crores")
     private String priceInCrores;
 
     public String getName() {
@@ -41,7 +42,5 @@ public class PlayerDetail {
     public void setPriceInCrores(String priceInCrores) {
         this.priceInCrores = priceInCrores;
     }
-
-
 
 }

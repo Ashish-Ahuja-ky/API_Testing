@@ -6,14 +6,14 @@ public class TeamDetail {
 
     private String name;
     private String location;
-    private List<PlayerDetail> playerDetails;
+    private List<PlayerDetail> player;
 
     public List<PlayerDetail> getPlayerDetails() {
-        return playerDetails;
+        return player;
     }
 
-    public void setPlayerDetails(List<PlayerDetail> playerDetails) {
-        this.playerDetails = playerDetails;
+    public void setPlayerDetails(List<PlayerDetail> player) {
+        this.player = player;
     }
 
     public String getName() {
