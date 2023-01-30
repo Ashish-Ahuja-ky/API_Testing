@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="40936f80-7ed4-45fa-967b-74a66d7ccff7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinations/stepDefination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinations/stepDefination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utility/TeamDetailFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utility/TeamDetailFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify that there is alteast 1 wicket keeper">
     <configuration name="Feature: Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Test.feature" />
@@ -99,6 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify that there is alteast 1 wicket keeper" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Test.feature" />
+      <option name="GLUE" value="stepDefinations" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="API_Testing" />
+      <option name="NAME_FILTER" value="^Verify that there is alteast 1 wicket keeper$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that there is alteast 1 wicket keeper$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that there is alteast 1 wicket keeper" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API_Testing" />
       <extension name="coverage">
@@ -116,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify that there is alteast 1 wicket keeper" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Verify that RCB team has only 4 foreign players" />
         <item itemvalue="Cucumber Java.Feature: Test" />
@@ -161,6 +186,11 @@
           <url>jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar!/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.class</url>
           <line>391</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utility/TeamDetailFunctions.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

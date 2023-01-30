@@ -24,12 +24,16 @@ public class stepDefination extends JsonFunctions {
     @When("Read the data of json {string}")
     public void read_the_data_of_json(String string) {
         object = jsonFunctions.deserializeJson(string, TeamDetail.class);
+        teamDetail = (TeamDetail)object;
     }
 
     @Then("Verify that RCB team has only {int} foreign players")
     public void verifyThatRCBTeamHasOnlyForeignPlayers(int players) {
-       teamDetail = (TeamDetail)object;
         Assert.assertEquals(players,teamDetailFunctions.calculateForeignPlayers(teamDetail));
     }
 
+    @Then("Verify that RCB team has atleast {int} wicket keeper")
+    public void verifyThatRCBTeamHasAtleastWicketKeeper(int keeper) {
+    Assert.assertTrue("Wicket Keeper count is less than :"+keeper,teamDetailFunctions.calculateWicketKeepers(teamDetail)>=keeper);
+    }
 }
